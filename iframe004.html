@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet, 
+        consectetur adipisicing elit. 
+        Nam perferendis, aut, neque, 
+        esse voluptas ratione quia rerum 
+        nesciunt necessitatibus architecto 
+        adipisci consectetur iusto. 
+        Odit recusandae, iusto expedita 
+        veritatis ex eveniet.</p>
+<!-- O comando sandbox="sandbox" bloqueia a inserçao ou captura de informações 
+     por usuários externos dentro do seu site
+    
+     O comando sandbox=allow same origin - permite acesso a conteúdo do mesmo servidor -->
+        <iframe src="Paginas_extras/Pag004.html" sandbox="allow-forms allow-same-origin allow-scripts"
+                referrerpolicy="no-referrer-when-dowgrade"></iframe>
+
+
+
+        <p>Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. 
+            Nam perferendis, aut, neque, 
+            esse voluptas ratione quia rerum 
+            nesciunt necessitatibus architecto 
+            adipisci consectetur iusto. 
+            Odit recusandae, iusto expedita 
+            veritatis ex eveniet.</p>
+    
+
+</body>
+</html>
